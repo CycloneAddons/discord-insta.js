@@ -1,0 +1,31 @@
+{
+  "name": "discord-insta.js",
+  "version": "1.0.0",
+  "description": "A powerfull library for Instagram Bot. Same as Discord.js",
+  "main": "src/index.js",
+  "types": "./typings/index.d.ts",
+  "author": "github.com/CycloneAddons",
+  "license": "AGPL-3.0",
+  "exports": {
+    ".": [
+      {
+        "require": "./src/index.js",
+        "import": "./esm/index.mjs"
+      },
+      "./src/index.js"
+    ],
+    "./esm": "./esm/index.mjs"
+  },
+  "dependencies": {
+    "@discordjs/collection": "^0.2.1",
+    "get-urls": "^10.0.0",
+    "instagram_mqtt": "^1.2.2",
+    "instagram-private-api": "^1.45.3",
+    "jimp": "^0.22.8",
+    "node-fetch": "^2.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CycloneAddons/discord-insta.js"
+  }
+}

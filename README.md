@@ -8,7 +8,7 @@ Framework for interacting with instagrams private api in a usable manner in a st
 2. Create a new project folder
 3. `$ cd` to that directory
 4. Run `$ npm init` and follow prompts
-5. Run `$ npm install node-ig-framework` and boom you're done!
+5. Run `$ npm install discord-insta.js` and boom you're done!
 
 ## Setup
 
